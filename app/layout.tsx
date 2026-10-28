@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Nely — Software Engineer & AI Enthusiast",
-  description: "Portfolio of Nely, a software engineer exploring intelligent systems and building reliable digital products.",
+  title: "NELY Zaratiana Fify — Software Engineer & AI Enthusiast",
+  description: "Portfolio of NELY Zaratiana Fify, a software engineer exploring intelligent systems and building reliable digital products.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
