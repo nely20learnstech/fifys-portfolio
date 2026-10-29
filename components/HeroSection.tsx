@@ -88,5 +88,149 @@
  */
 
 
+export default function HeroSection() {
+  return (
+    <section
+      id="home"
+      className="relative min-h-[calc(100vh-5rem)] flex items-center py-16 md:py-20 bg-grid-pattern overflow-hidden"
+    >
+      {/* Background decorations — original palette preserved */}
+      <div className="absolute top-20 right-10 w-96 h-96 bg-[#DCD3FF]/30 rounded-full blur-3xl pointer-events-none" />
+
+      <div className="absolute bottom-10 left-10 w-80 h-80 bg-[#C8C7FF]/20 rounded-full blur-3xl pointer-events-none" />
+
+      {/* Main content */}
+      <div className="max-w-7xl w-full mx-auto px-6 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+
+          {/* LEFT: Personal introduction */}
+          <div className="lg:col-span-7 flex flex-col items-start text-left order-2 lg:order-1">
+
+            {/* Greeting */}
+            <p className="text-base sm:text-lg font-medium text-[#515578] mb-3">
+              Hello there! <span aria-hidden="true">👋🏾</span>
+            </p>
+
+            {/* Full name */}
+            <h1 className="font-heading font-extrabold text-4xl sm:text-5xl lg:text-6xl text-[#111747] leading-[1.1] tracking-tight mb-5">
+              I&apos;m Zaratiana
+              <br />
+              
+              <span className="text-[#5B2CCB] italic">
+               Fify {" "}
+              </span>
+              NELY.
+            </h1>
+
+            {/* Professional identity */}
+            <div className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full bg-[#F0EEFF] border border-[#DCD3FF] text-[#3520A8] text-xs sm:text-sm font-semibold tracking-wide mb-6">
+              <span className="w-2 h-2 rounded-full bg-[#5B2CCB] animate-pulse" />
+              SOFTWARE ENGINEER · AI ENTHUSIAST
+            </div>
+
+            {/* Brief presentation */}
+            <p className="text-base sm:text-lg text-[#515578] max-w-lg leading-relaxed mb-8">
+              I love turning ideas into useful software and exploring how technology, especially AI, can open doors that once felt out of reach and create new possibilities for people.
+            </p>
+
+             {/* Personal touch */}
+        {/*   <p className="text-sm sm:text-base text-[#515578]/90 max-w-lg leading-relaxed mb-7">
+            Beyond code, I love sharing what I learn, exchanging ideas,
+            and growing with people from different backgrounds.
+          </p> */}
+
+            {/* Call-to-action buttons */}
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+              <a
+                href="#projects"
+                className="px-6 sm:px-7 py-3.5 rounded-full bg-[#5B2CCB] text-white font-semibold text-sm shadow-soft hover:bg-[#3520A8] transition-all transform hover:-translate-y-0.5 flex items-center gap-2"
+              >
+                Explore my work
+                <i className="fa-solid fa-arrow-right text-xs" aria-hidden="true" />
+              </a>
+
+              <a
+                href="#contact"
+                className="px-6 sm:px-7 py-3.5 rounded-full bg-white border border-[#DCD3FF] text-[#111747] font-semibold text-sm shadow-sm hover:bg-[#F0EEFF] transition-all"
+              >
+                Let&apos;s connect
+              </a>
+            </div>
+
+            {/* Subtle personal signature */}
+            <div className="mt-8 flex items-center gap-2 text-[#515578] font-hand text-lg sm:text-xl -rotate-2">
+              <svg
+                className="w-5 h-5 text-[#5B2CCB] shrink-0"
+                viewBox="0 0 24 24"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M5 12h14M12 5l7 7-7 7"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+
+              <span className="italic">
+              Currently exploring AI agents &amp; secure systems ✨
+              </span>
+            </div>
+          </div>
+
+          {/* RIGHT: Portrait */}
+          <div className="lg:col-span-5 relative px-5 sm:px-8 lg:px-2 py-4 order-1 lg:order-2">
+            <div className="relative w-full max-w-sm mx-auto">
+
+              {/* Lavender glow */}
+              <div className="absolute inset-4 bg-[#DCD3FF]/60 rounded-[2.5rem] blur-2xl" />
+
+              {/* Portrait frame */}
+              <div className="relative z-10 p-2 bg-white rounded-4xl shadow-card border border-[#DCD3FF]">
+                <div className="relative aspect-4/5 overflow-hidden rounded-3xl bg-[#F0EEFF]">
+                  <img
+                    src="/images/profile.png"
+                    alt="Zaratiana Fify Nely, software engineer"
+                    className="w-full h-full object-cover object-center"
+                  />
+
+                  {/* Original subtle image gradient */}
+                  <div className="absolute inset-x-0 bottom-0 h-32 bg-linear-to-t from-[#111747]/30 to-transparent pointer-events-none" />
+                </div>
+              </div>
+
+              {/* Single floating identity card */}
+              <div className="absolute -bottom-5 -left-3 sm:-bottom-6 sm:-left-7 z-20 bg-white border border-[#DCD3FF] rounded-2xl p-3 sm:p-4 shadow-card">
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-xl bg-[#5B2CCB] text-white flex items-center justify-center shrink-0">
+                    <i
+                      className="fa-solid fa-code text-lg"
+                      aria-hidden="true"
+                    />
+                  </div>
+
+                  <div>
+                    <p className="text-sm font-bold text-[#111747]">
+                      Building with purpose
+                    </p>
+
+                    <p className="text-xs text-[#515578]">
+                      Software · AI · Security
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+}
+
 
 

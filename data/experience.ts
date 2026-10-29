@@ -1,0 +1,105 @@
+import type { Experience } from "@/types/experience";
+
+export const experiences: Experience[] = [
+  {
+    id: "bfm",
+    company: "Banky Foiben'i Madagasikara (BFM) - Central Bank of Madagascar",
+    role: "Software Engineer",
+    location: "Antananarivo, Madagascar",
+    current: true,
+    type: "Full-time",
+    description:
+      "Contributing to software development and establishing engineering practices to improve software quality, security, and maintainability within Madagascar's central banking institution.",
+    responsibilities: [
+      "Developing software solutions for banking operations.",
+      "Authoring software development standards covering coding conventions, code quality, testing, and maintainability.",
+      "Establishing security best practices for AI-assisted software development, incorporating security-by-design principles.",
+      "Developing an IT Project Management Framework incorporating the V-Model and Agile Scrum methodologies.",
+    ],
+    technologies: [
+      "Software Engineering",
+      "Secure Development",
+      "OWASP",
+      "AI-Assisted Development",
+      "Agile Scrum",
+      "V-Model"
+    ],
+    highlights: [
+      "Software Development Standards",
+      "Security Best Practices for AI-Assisted Development",
+      "IT Project Management Framework and Guidelines",
+    ],
+  },
+  {
+    id: "mada-digital",
+    company: "MADA-DIGITAL",
+    role: "Software Developer Intern",
+    location: "Antsiranana, Madagascar",
+    startDate: "Jun 10, 2025",
+    endDate: "Oct 31, 2025",
+    type: "Internship",
+    description:
+      "Designed and developed a cross-platform employee management system integrating employee records, activity tracking, payroll, leave management, and interactive organizational calendars as part of my Master's thesis.",
+    technologies: [
+      "TypeScript",
+      "Django",
+      "Django REST Framework",
+      "React",
+      "React Native",
+      "Shadcn",
+      "TanStack",
+      "MySQL",
+      "Docker",
+      "Redis",
+      "Celery",
+      "Agile Scrum",
+      "Trello",
+    ],
+  },
+  {
+    id: "manao-sarl",
+    company: "MANAO SARL",
+    role: "Software Developer Intern",
+    location: "Fianarantsoa, Madagascar",
+    startDate: "Aug 28, 2023",
+    endDate: "Nov 17, 2023",
+    type: "Internship",
+    description:
+      "Designed and developed a job interview tracking application to help recruiters organize job applications, manage interviews, and monitor recruitment activities as part of my Bachelor's thesis.",
+    technologies: [
+      "React",
+      "CodeIgniter",
+      "Recharts",
+      "TanStack",
+      "MySQL",
+      "UML",
+      "Trello",
+      "GitLab",
+    ],
+  },
+  {
+    id: "s2m",
+    company: "Société Malgache de Magasins (S2M)",
+    role: "Software Developer Intern",
+    location: "Antananarivo, Madagascar",
+    startDate: "Sep 19, 2022",
+    endDate: "Dec 16, 2022",
+    type: "Internship",
+    description:
+      "Designed and developed a real-time revenue dashboard consolidating sales data from S2M stores across Madagascar, providing clearer business performance insights to support decision-making.",
+    technologies: [
+      "CodeIgniter 3",
+      "PHP",
+      "Ajax",
+      "Google Charts",
+      "PostgreSQL",
+      "DBeaver",
+      "Merise 2",
+    ],
+    highlights: [
+      "Real-time revenue visualization",
+      "Business performance monitoring",
+      "Multi-store reporting",
+    ],
+  },
+];

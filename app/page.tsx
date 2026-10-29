@@ -6,14 +6,14 @@ import SiteFooter from "@/components/SiteFooter";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ToolboxSection from "@/components/ToolboxSection";
-import ProjectsSection from "@/components/ProjectsSection";
-import ExperienceSection from "@/components/ExperienceSection";
 import CommunitySection from "@/components/CommunitySection";
 import EducationSection from "@/components/EducationSection";
 import WritingSection from "@/components/WritingSection";
 import ContactSection from "@/components/ContactSection";
 import ContentModal from "@/components/ContentModal";
 import type { ArticleKey, ProjectKey } from "@/data/portfolio";
+import ProjectsSection from "@/components/projects/ProjectsSection";
+import ExperienceSection from "@/components/experience/ExperienceSection";
 
 export default function HomePage() {
   const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
