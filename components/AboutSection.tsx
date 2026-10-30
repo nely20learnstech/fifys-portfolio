@@ -5,7 +5,7 @@ export default function AboutSection() {
                 <div className="max-w-3xl mb-16">
                     <span className="text-xs font-semibold uppercase tracking-wider text-[#5B2CCB] mb-2 block">BACKGROUND</span>
                     <h2 className="font-heading font-extrabold text-3xl sm:text-4xl text-[#111747]">
-                        A little about how I think.
+                        A little about me.
                     </h2>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -14,14 +14,20 @@ export default function AboutSection() {
                             Madagascar
                         </div>
                         <h3 className="font-heading font-bold text-xl text-[#111747] mb-4">
-                            Engineering with Intelligence
+                            Curious by Nature, Engineer by Profession
                         </h3>
                         <p className="text-[#515578] leading-relaxed mb-6">
-                            I hold a Master's degree in Computer Science (completed in November 2025) from ENI University of Fianarantsoa. With a strong foundation in software engineering, networks, and systems administration, I currently build robust solutions in the banking sector.
+                            I'm a software engineer with a Master's degree in Computer
+                            Science from the École Nationale d'Informatique (ENI),
+                            University of Fianarantsoa. I enjoy turning ideas into useful,
+                            reliable software and exploring how technology can solve
+                            real-world problems.
                         </p>
                         <p className="text-[#515578] leading-relaxed">
-                            My work blends rigorous software architecture principles with cutting-edge AI explorations—ensuring that every digital product I craft is performant, secure, and genuinely useful to people.
-                        </p>
+                            Beyond software development, I'm curious about the possibilities
+                            of artificial intelligence and how it can help people, improve
+                            everyday life, and create meaningful opportunities. I believe
+                            there's always something new to learn, build, and share.                        </p>
                     </div>
                     <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-6">
                         <div className="bg-white p-6 rounded-2xl shadow-card border border-[#DCD3FF] flex flex-col justify-between hover:border-[#5B2CCB] transition-colors">
@@ -29,23 +35,25 @@ export default function AboutSection() {
                                 <span className="font-mono text-xs font-bold text-[#5B2CCB] block mb-3">01 — ENGINEERING</span>
                                 <h4 className="font-heading font-bold text-lg text-[#111747] mb-2">Robust Systems</h4>
                                 <p className="text-sm text-[#515578] leading-relaxed">
-                                    Building maintainable, well-structured, secure, and reliable software across full-stack ecosystems.
+                                     Designing reliable, secure, and maintainable software
+  to solve real-world problems.
                                 </p>
                             </div>
                             <div className="mt-6 pt-4 border-t border-[#F0EEFF] text-xs font-semibold text-[#3520A8]">
-                                Python & React
+                                Python . React . Next.js . Symfony . Full-stack Development
                             </div>
                         </div>
                         <div className="bg-white p-6 rounded-2xl shadow-card border border-[#DCD3FF] flex flex-col justify-between hover:border-[#5B2CCB] transition-colors">
                             <div>
                                 <span className="font-mono text-xs font-bold text-[#5B2CCB] block mb-3">02 — EXPLORATION</span>
-                                <h4 className="font-heading font-bold text-lg text-[#111747] mb-2">Intelligent AI</h4>
+                                <h4 className="font-heading font-bold text-lg text-[#111747] mb-2">Exploring AI</h4>
                                 <p className="text-sm text-[#515578] leading-relaxed">
-                                    Experimenting with AI agents, LLMs, computer vision, and autonomous robotics to solve complex challenges.
+                                     Discovering how LLMs, AI agents, and intelligent systems
+  can create meaningful solutions and help humanity.
                                 </p>
                             </div>
                             <div className="mt-6 pt-4 border-t border-[#F0EEFF] text-xs font-semibold text-[#3520A8]">
-                                RAG & Agents
+                                LLMs · AI Agents · Computer Vision
                             </div>
                         </div>
                         <div className="bg-white p-6 rounded-2xl shadow-card border border-[#DCD3FF] flex flex-col justify-between hover:border-[#5B2CCB] transition-colors">
@@ -53,11 +61,11 @@ export default function AboutSection() {
                                 <span className="font-mono text-xs font-bold text-[#5B2CCB] block mb-3">03 — COMMUNITY</span>
                                 <h4 className="font-heading font-bold text-lg text-[#111747] mb-2">Impact & Sharing</h4>
                                 <p className="text-sm text-[#515578] leading-relaxed">
-                                    Mentoring in robotics, leading open-source groups, and empowering the next generation of tech builders.
+                                   Robotics mentorship, Linux and open-source advocacy, and knowledge sharing with people from diverse backgrounds.                             
                                 </p>
                             </div>
                             <div className="mt-6 pt-4 border-t border-[#F0EEFF] text-xs font-semibold text-[#3520A8]">
-                                STEM Mentorship
+                                STEM Mentorship . Robotics . Open Source
                             </div>
                         </div>
                     </div>

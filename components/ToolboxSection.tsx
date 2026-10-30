@@ -9,9 +9,9 @@ export default function ToolboxSection() {
               My toolbox.
             </h2>
           </div>
-          <p className="text-sm text-[#515578] max-w-sm mt-4 md:mt-0">
+         {/*  <p className="text-sm text-[#515578] max-w-sm mt-4 md:mt-0">
             A carefully curated stack reflecting hands-on professional experience in software engineering, systems, and AI.
-          </p>
+          </p> */}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-2xl shadow-card border border-[#DCD3FF] hover:shadow-soft transition-all">

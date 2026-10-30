@@ -17,11 +17,17 @@ export default function ProjectsSection({
   const [activeCategory, setActiveCategory] =
     useState<ProjectCategoryId | "all">("all");
 
+    const sortedProjects = [...projects].sort(
+  (a, b) =>
+    new Date(b.sortDate).getTime() -
+    new Date(a.sortDate).getTime()
+);
+
   const visibleCategories = useMemo(() => {
     return projectCategories
       .map((category) => ({
         category,
-        projects: projects.filter(
+        projects: sortedProjects.filter(
           (project) => project.category === category.id
         ),
       }))

@@ -29,7 +29,7 @@ export default function ExperienceCard({
         aria-hidden="true"
       >
         {isCurrent && (
-          <span className="h-1.5 w-1.5 rounded-full bg-white" />
+          <span className="h-1 w-1 rounded-full bg-white" />
         )}
       </div>
 

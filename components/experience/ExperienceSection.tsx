@@ -33,7 +33,7 @@ export default function ExperienceSection() {
 
         {/* Timeline */}
         <div className="mx-auto max-w-4xl">
-          <div className="relative space-y-8 before:absolute before:bottom-8 before:left-[9px] before:top-8 before:w-px before:bg-gradient-to-b before:from-[#5B2CCB] before:via-[#C8BCFF] before:to-transparent sm:space-y-10">
+          <div className="relative space-y-8 before:absolute before:bottom-8 before:left-2.25 before:top-8 before:w-px before:bg-linear-to-b before:from-[#5B2CCB] before:via-[#C8BCFF] before:to-transparent sm:space-y-10">
             {experiences.map((experience, index) => (
               <ExperienceCard
                 key={experience.id}
@@ -45,11 +45,11 @@ export default function ExperienceSection() {
         </div>
 
         {/* Closing note */}
-        <div className="mt-14 text-center">
+        {/* <div className="mt-14 text-center">
           <p className="text-sm text-[#777696]">
             Each step is part of a continuous journey of learning and growth.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

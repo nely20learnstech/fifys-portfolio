@@ -15,31 +15,31 @@ export default function ContactSection({ handleContactSubmit, submitted }: { han
                         I'm always interested in thoughtful conversations about software engineering, AI, technology, and opportunities to build useful things.
                     </p>
     <div className="space-y-4 mb-8">
-    <a href="mailto:contact@nely.dev" className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-[#DCD3FF] shadow-sm hover:border-[#5B2CCB] transition-all group">
+    <a href="mailto:zaratianafifynely@gmail.com" className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-[#DCD3FF] shadow-sm hover:border-[#5B2CCB] transition-all group">
     <div className="w-12 h-12 rounded-xl bg-[#F0EEFF] text-[#5B2CCB] flex items-center justify-center text-lg group-hover:bg-[#5B2CCB] group-hover:text-white transition-colors">
     <i className="fa-solid fa-envelope"></i>
     </div>
     <div>
     <p className="text-xs text-[#515578]">Direct Email</p>
-    <p className="font-semibold text-[#111747]">contact@nely.dev</p>
+    <p className="font-semibold text-[#111747]">zaratianafifynely@gmail.com</p>
     </div>
     </a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener" className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-[#DCD3FF] shadow-sm hover:border-[#5B2CCB] transition-all group">
+    <a href="https://www.linkedin.com/in/zaratiana-fify-nely/" target="_blank" rel="noopener" className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-[#DCD3FF] shadow-sm hover:border-[#5B2CCB] transition-all group">
     <div className="w-12 h-12 rounded-xl bg-[#F0EEFF] text-[#5B2CCB] flex items-center justify-center text-lg group-hover:bg-[#5B2CCB] group-hover:text-white transition-colors">
     <i className="fa-brands fa-linkedin-in"></i>
     </div>
     <div>
     <p className="text-xs text-[#515578]">Professional Profile</p>
-    <p className="font-semibold text-[#111747]">linkedin.com/in/nely</p>
+    <p className="font-semibold text-[#111747]">linkedin.com/in/zaratiana-fify-nely</p>
     </div>
     </a>
-    <a href="https://github.com" target="_blank" rel="noopener" className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-[#DCD3FF] shadow-sm hover:border-[#5B2CCB] transition-all group">
+    <a href="https://github.com/nely20learnstech" target="_blank" rel="noopener" className="flex items-center gap-4 p-4 rounded-2xl bg-white border border-[#DCD3FF] shadow-sm hover:border-[#5B2CCB] transition-all group">
     <div className="w-12 h-12 rounded-xl bg-[#F0EEFF] text-[#5B2CCB] flex items-center justify-center text-lg group-hover:bg-[#5B2CCB] group-hover:text-white transition-colors">
     <i className="fa-brands fa-github"></i>
     </div>
     <div>
     <p className="text-xs text-[#515578]">Code Repositories</p>
-    <p className="font-semibold text-[#111747]">github.com/nely</p>
+    <p className="font-semibold text-[#111747]">github.com/nely20learnstech</p>
     </div>
     </a>
     </div>

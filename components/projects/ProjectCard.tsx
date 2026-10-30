@@ -1,3 +1,4 @@
+import { projects } from "@/data/projects";
 import type { Project } from "@/types/project";
 
 interface ProjectCardProps {
@@ -9,6 +10,9 @@ export default function ProjectCard({
   project,
   onOpenProject,
 }: ProjectCardProps) {
+
+  
+
   return (
     <article className="group flex h-full flex-col justify-between rounded-3xl border border-[#DCD3FF] bg-white p-6 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-hover sm:p-8">
       <div>
@@ -22,6 +26,14 @@ export default function ProjectCard({
               {project.year}
             </span>
           )}
+
+          {project.startDate && (
+            <span className="font-mono text-xs text-[#515578]">
+              {project.startDate} — {project.endDate ?? "Present"}
+            </span>
+          )}
+
+
         </div>
 
         <h3 className="mb-3 font-heading text-xl font-bold text-[#111747] transition-colors group-hover:text-[#5B2CCB] sm:text-2xl">
